@@ -9,7 +9,7 @@ const Navbar = () => {
       mx="20px"
       pt="20px"
     >
-      <Text fontSize={"2xl"}>PrettyBg</Text>
+      <Text fontSize={"3xl"}>PrettyBg</Text>
       <Box>
         <Button>Premium</Button>
       </Box>
