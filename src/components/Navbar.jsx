@@ -9,9 +9,18 @@ const Navbar = () => {
       mx="20px"
       pt="20px"
     >
-      <Text fontSize={"3xl"}>PrettyBg</Text>
+      <Text fontSize={"4xl"} fontWeight={"semibold"} fontStyle={"Roboto"}>
+        PrettyBg
+      </Text>
       <Box>
-        <Button>Premium</Button>
+        <Button
+          bg={"blue.400"}
+          _hover={{
+            bg: "blue.200",
+          }}
+        >
+          Premium
+        </Button>
       </Box>
     </Flex>
   );
