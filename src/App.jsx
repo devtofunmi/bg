@@ -5,7 +5,7 @@ import Homepage from "./pages/Homepage";
 function App() {
   return (
     <>
-      <Box w={"100%"} minH={"100vh"} bg={"#181819"} color={"white"}>
+      <Box w={"100%"} minH={"100vh"} bg={"white"} color={"#181819"}>
         <Homepage />
       </Box>
     </>
