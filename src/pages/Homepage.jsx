@@ -22,7 +22,12 @@ const Homepage = () => {
               </Text>
             </Box>
             <Box mt={"30px"}>
-              <Input type="file" />
+              <Input
+                fontSize="16px"
+                cursor={"pointer"}
+                type="file"
+                accept="image/*"
+              />
             </Box>
           </Box>
         </Flex>
