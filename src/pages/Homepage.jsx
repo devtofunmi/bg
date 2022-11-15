@@ -5,13 +5,23 @@ import bg from "../assets/choose.png";
 const Homepage = () => {
   return (
     <>
-      <Box h={"100vh"} mx={"50px"}>
+      <Box h={"100vh"} mx={"70px"}>
         <Navbar />
-        <Flex justifyContent={"space-between"} mt={"20px"}>
-          <Img w={"500px"} src={bg} />
+        <Flex justifyContent={"space-between"} mt={"10px"}>
+          <Box>
+            <Box w={"500px"}>
+              <Text fontSize={"50px"} fontWeight={"bold"} fontStyle={"Roboto"}>
+                Make Image Look Better
+              </Text>
+              <Text fontSize={"25px"} color={"grey"}>
+                100% Automatically and Free
+              </Text>
+            </Box>
+            <Img w={"350px"} src={bg} />
+          </Box>
           <Box w={"600px"}>
-            <Text fontSize={"40px"} fontWeight={"bold"} fontStyle={"Roboto"}>
-              Remove Background From Image and Add Another Background for Free
+            <Text fontSize={"50px"} fontWeight={"bold"} fontStyle={"Roboto"}>
+              Turn Any Photo Into Awersome and Make it Look Better
             </Text>
           </Box>
         </Flex>
