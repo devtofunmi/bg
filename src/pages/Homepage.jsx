@@ -15,11 +15,15 @@ const Homepage = () => {
     <>
       <Box h={"100vh"} mx={"70px"}>
         <Navbar />
-        <Flex justifyContent={"space-between"} mt={"30px"}>
+        <Flex
+          justifyContent={"space-between"}
+          mt={"30px"}
+          direction={["column", "row"]}
+        >
           <Box>
             <Img w={"350px"} src={bg} />
           </Box>
-          <Box w={"600px"}>
+          <Box>
             <Box w={"500px"}>
               <Text fontSize={"50px"} fontWeight={"bold"} fontStyle={"Roboto"}>
                 Make Image Look Better
