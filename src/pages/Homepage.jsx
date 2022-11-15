@@ -1,5 +1,5 @@
 import { Box, Flex, Img, Input, Text } from "@chakra-ui/react";
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Dropzone from "../components/Dropzone";
 import bg from "../assets/choose.png";
