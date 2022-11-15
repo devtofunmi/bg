@@ -4,6 +4,13 @@ import Navbar from "../components/Navbar";
 import Dropzone from "../components/Dropzone";
 import bg from "../assets/choose.png";
 const Homepage = () => {
+  const [image, setImage] = useState("");
+
+  function uploadImage(e) {
+    setImage(e.target.files[0]);
+    console.log(e.target.files);
+  }
+
   return (
     <>
       <Box h={"100vh"} mx={"70px"}>
@@ -27,6 +34,7 @@ const Homepage = () => {
                 cursor={"pointer"}
                 type="file"
                 accept="image/*"
+                onChange={uploadImage}
               />
             </Box>
           </Box>
