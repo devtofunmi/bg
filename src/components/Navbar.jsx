@@ -6,7 +6,7 @@ const Navbar = () => {
     <Flex
       justifyContent="space-between"
       alignItems="center"
-      mx="20px"
+      //   mx="20px"
       pt="20px"
     >
       <Text fontSize={"4xl"} fontWeight={"semibold"} fontStyle={"Roboto"}>
