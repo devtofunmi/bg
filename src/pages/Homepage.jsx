@@ -32,7 +32,16 @@ const Homepage = () => {
                 100% Automatically and Free
               </Text>
             </Box>
-            <Box mt={"30px"}>
+            <Box
+              mt={"30px"}
+              textAlign="center"
+              padding="3%"
+              border="thin solid black"
+            >
+              {/* <label cursor="pointer" for="inputTag">
+                Select Image
+                <input type="file" />
+              </label> */}
               <Input
                 fontSize="16px"
                 cursor={"pointer"}
@@ -40,6 +49,9 @@ const Homepage = () => {
                 accept="image/*"
                 onChange={uploadImage}
               />
+            </Box>
+            <Box>
+              <Img height="200" width={"100%"} src={image} />
             </Box>
           </Box>
         </Flex>
