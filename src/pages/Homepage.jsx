@@ -38,10 +38,10 @@ const Homepage = () => {
               padding="3%"
               border="thin solid black"
             >
-              <label cursor="pointer" for="inputTag">
+              {/* <label cursor="pointer" for="inputTag">
                 Select Image
                 <input type="file" />
-              </label>
+              </label> */}
               <Input
                 fontSize="16px"
                 cursor={"pointer"}
