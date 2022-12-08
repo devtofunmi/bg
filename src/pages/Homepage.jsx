@@ -1,4 +1,4 @@
-import { Box, Flex, Img, Input, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Img, Input, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import Dropzone from "../components/Dropzone";
@@ -32,27 +32,49 @@ const Homepage = () => {
                 100% Automatically and Free
               </Text>
             </Box>
-            <Box
+            {/* <Box
               mt={"30px"}
               textAlign="center"
               padding="3%"
               border="thin solid black"
-            >
-              {/* <label cursor="pointer" for="inputTag">
+            > */}
+            {/* <label cursor="pointer" for="inputTag">
                 Select Image
                 <input type="file" />
               </label> */}
-              <Input
+            {/* <Input
                 fontSize="16px"
                 cursor={"pointer"}
                 type="file"
                 accept="image/*"
                 onChange={uploadImage}
               />
-            </Box>
+            </Box> */}
             <Box>
-              <Img height="200" width={"100%"} src={image} />
+              <form
+                action="/upload"
+                method="post"
+                enctype="multipart/form-data"
+              >
+                <Input
+                  type="file"
+                  name="file"
+                  id="file-input"
+                  accept="image/*"
+                />
+                <Button
+                  type="submit"
+                  variant="outline"
+                  as="label"
+                  htmlFor="file-input"
+                >
+                  Choose a file...
+                </Button>
+              </form>
             </Box>
+            {/* <Box>
+              <Img height="200" width={"100%"} src={image} />
+            </Box> */}
           </Box>
         </Flex>
       </Box>
