@@ -14,7 +14,7 @@ const Navbar = () => {
       </Text>
       <Box>
         <Button
-          bg={"blue.400"}
+          bg={"blue.300"}
           _hover={{
             bg: "blue.200",
           }}
