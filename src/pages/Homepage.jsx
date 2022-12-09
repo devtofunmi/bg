@@ -50,7 +50,7 @@ const Homepage = () => {
                 onChange={uploadImage}
               />
             </Box> */}
-            <Box>
+            {/* <Box>
               <form
                 action="/upload"
                 method="post"
@@ -74,6 +74,13 @@ const Homepage = () => {
             </Box>
             <Box>
               <Img height="200" width={"100%"} src={image} />
+            </Box> */}
+            <Box bg={"black"} borderRadius={"20px"} w={"400px"} h={"300px"}>
+              <Flex justify={"center"}>
+                <Button color={"white"} bg={"blue.300"}>
+                  Upload Image
+                </Button>
+              </Flex>
             </Box>
           </Box>
         </Flex>
