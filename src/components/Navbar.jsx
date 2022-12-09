@@ -9,7 +9,12 @@ const Navbar = () => {
       //   mx="20px"
       pt="20px"
     >
-      <Text fontSize={"4xl"} fontWeight={"semibold"} fontStyle={"Roboto"}>
+      <Text
+        color={"#51626d"}
+        fontSize={"4xl"}
+        fontWeight={"semibold"}
+        fontStyle={"Roboto"}
+      >
         PrettyBg
       </Text>
       <Box>
