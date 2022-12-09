@@ -25,7 +25,12 @@ const Homepage = () => {
           </Box>
           <Box>
             <Box w={"500px"}>
-              <Text fontSize={"40px"} fontWeight={"bold"} fontStyle={"Roboto"}>
+              <Text
+                fontSize={"40px"}
+                fontWeight={"bold"}
+                fontStyle={"Roboto"}
+                color={"#51626d"}
+              >
                 Make Image Look Better
               </Text>
               <Text fontSize={"20px"} color={"grey"}>
