@@ -25,10 +25,10 @@ const Homepage = () => {
           </Box>
           <Box>
             <Box w={"500px"}>
-              <Text fontSize={"50px"} fontWeight={"bold"} fontStyle={"Roboto"}>
+              <Text fontSize={"40px"} fontWeight={"bold"} fontStyle={"Roboto"}>
                 Make Image Look Better
               </Text>
-              <Text fontSize={"25px"} color={"grey"}>
+              <Text fontSize={"20px"} color={"grey"}>
                 100% Automatically and Free
               </Text>
             </Box>
@@ -75,9 +75,21 @@ const Homepage = () => {
             <Box>
               <Img height="200" width={"100%"} src={image} />
             </Box> */}
-            <Box bg={"black"} borderRadius={"20px"} w={"400px"} h={"300px"}>
+            <Box
+              mt={"30px"}
+              bg={"#ffffff"}
+              borderRadius={"20px"}
+              w={"400px"}
+              h={"300px"}
+              shadow={"2xl"}
+            >
               <Flex justify={"center"}>
-                <Button color={"white"} bg={"blue.300"}>
+                <Button
+                  mt={"130px"}
+                  fontSize={"25px"}
+                  color={"white"}
+                  bg={"blue.300"}
+                >
                   Upload Image
                 </Button>
               </Flex>
