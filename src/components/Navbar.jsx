@@ -15,6 +15,7 @@ const Navbar = () => {
       <Box>
         <Button
           bg={"blue.300"}
+          color={"white"}
           _hover={{
             bg: "blue.200",
           }}
