@@ -56,12 +56,12 @@ const Homepage = () => {
                 method="post"
                 enctype="multipart/form-data"
               >
-                <Input
+                {/* <Input
                   type="file"
                   name="file"
                   id="file-input"
                   accept="image/*"
-                />
+                /> */}
                 <Button
                   type="submit"
                   variant="outline"
