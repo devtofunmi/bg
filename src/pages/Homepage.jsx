@@ -37,12 +37,8 @@ const Homepage = () => {
               textAlign="center"
               padding="3%"
               border="thin solid black"
-            > */}
-            {/* <label cursor="pointer" for="inputTag">
-                Select Image
-                <input type="file" />
-              </label> */}
-            {/* <Input
+            >
+              <Input
                 fontSize="16px"
                 cursor={"pointer"}
                 type="file"
@@ -50,31 +46,7 @@ const Homepage = () => {
                 onChange={uploadImage}
               />
             </Box> */}
-            {/* <Box>
-              <form
-                action="/upload"
-                method="post"
-                enctype="multipart/form-data"
-              >
-                <Input
-                  type="file"
-                  name="file"
-                  id="file-input"
-                  accept="image/*"
-                />
-                <Button
-                  type="submit"
-                  variant="outline"
-                  as="label"
-                  htmlFor="file-input"
-                >
-                  Choose a file...
-                </Button>
-              </form>
-            </Box>
-            <Box>
-              <Img height="200" width={"100%"} src={image} />
-            </Box> */}
+
             <Box
               mt={"30px"}
               bg={"#ffffff"}
@@ -87,8 +59,13 @@ const Homepage = () => {
                 <Button
                   mt={"130px"}
                   fontSize={"25px"}
+                  p={"30px"}
                   color={"white"}
                   bg={"blue.300"}
+                  borderRadius={"10px"}
+                  _hover={{
+                    bg: "blue.200",
+                  }}
                 >
                   Upload Image
                 </Button>
