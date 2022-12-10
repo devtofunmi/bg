@@ -13,15 +13,21 @@ const Homepage = () => {
 
   return (
     <>
-      <Box h={"100vh"} mx={"70px"}>
+      <Box px={"70px"}>
         <Navbar />
         <Flex
+          w={["90%", "80%", "100%"]}
           justifyContent={"space-between"}
           mt={"30px"}
-          direction={["column", "row"]}
+          direction={["column", "column", "row"]}
         >
-          <Box>
-            <Img w={"350px"} src={bg} />
+          <Box mt={"50px"}>
+            {/* <Img w={"350px"} src={bg} /> */}
+
+            <Img
+              w={"650px"}
+              src="https://sb.kaleidousercontent.com/67418/973x498/0a4a8380d7/developers-4.png"
+            />
           </Box>
           <Box>
             <Box w={"500px"}>
@@ -56,7 +62,7 @@ const Homepage = () => {
               mt={"30px"}
               bg={"#ffffff"}
               borderRadius={"20px"}
-              w={"400px"}
+              w={["300px", "400px"]}
               h={"300px"}
               shadow={"2xl"}
             >
@@ -67,7 +73,7 @@ const Homepage = () => {
                   p={"30px"}
                   color={"white"}
                   bg={"blue.300"}
-                  borderRadius={"10px"}
+                  borderRadius={"30px"}
                   _hover={{
                     bg: "blue.200",
                   }}
